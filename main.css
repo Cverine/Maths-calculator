@@ -1,0 +1,131 @@
+body, button {
+    font-family: 'Schoolbell', cursive;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(7, minmax(50px, 150px));
+    margin: 0 auto;
+    background: #9A0000;
+}
+
+.title {
+    grid-column: 2/4;
+    grid-row: 1;
+    margin: 20px auto;
+    font-size: 2.5em;
+    /*border: 1px solid black;*/
+}
+
+.menu {
+    grid-column: 2/4;
+    grid-row: 2;
+    margin: 40px auto;
+    font-size: 50px;
+    /*border: 1px solid white;*/
+}
+
+.choice {
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    background: #545156;
+    color: #bab9bb;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none !important;
+}
+
+.choice:hover {
+    font-weight: 800;
+    color: #9A0000;
+}
+
+
+.question {
+    grid-column: 2/4;
+    grid-row: 3;
+    font-size: 2.1em;
+    margin-left: 70px;
+    /*border: 1px solid green;*/
+}
+
+.list {
+    display: grid;
+    grid-column: 4/6;
+    grid-row: 1/8;
+    margin: auto;
+    /*border: 1px solid deeppink;*/
+}
+
+.list-title, .success, .fail {
+    background: #c97f7f;
+    font-size: 20px;
+}
+
+.list-title {
+    grid-column: 2/4;
+    grid-row: 2;
+    margin-top: 15px;
+    /*border: 1px solid blue;*/
+}
+
+.success {
+    grid-column: 2/3;
+    grid-row: 3/8;
+    color: green;
+    /*border: 1px solid purple;*/
+}
+
+.fail {
+    grid-column: 3/4;
+    grid-row: 3/8;
+    color: #9A0000;
+    /*border: 1px solid yellow;*/
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+.list p {
+    margin-left: 30px;
+}
+
+.calculate {
+    grid-column: 2/4;
+    grid-row: 4;
+    margin-top: 30px;
+    /*border: 1px solid orange;*/
+}
+
+label {
+    font-size: 30px;
+}
+
+#result {
+    height: 30px;
+    /*width: 150px;*/
+}
+
+.calculate button {
+    font-size: 20px;
+    font-weight: bolder;
+    background: #bab9bb;
+    color: #9A0000;
+}
+
+.result {
+    grid-column: 2/4;
+    grid-row: 5;
+    font-size: 2.6em;
+    font-weight: 800;
+    /*border: 1px solid orangered;*/
+}
+
+.points {
+    grid-column: 1/3;
+    grid-row: 6;
+    /*border: 1px solid lightseagreen;*/
+}
+
