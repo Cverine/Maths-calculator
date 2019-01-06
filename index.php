@@ -57,7 +57,7 @@
     <div class="calculate">
         <form method="post" name="form" action="">
             <label for="result">Ton résultat : </label>
-            <input type="text" name="result" id="result" value="<?php if(isset($_POST['result'])) {
+            <input type="text" name="result" id="result" autocomplete="off" value="<?php if(isset($_POST['result'])) {
                 $_POST['result'];
             }
             ?>">
